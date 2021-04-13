@@ -1,0 +1,10 @@
+
+src：負責建構各個動作的物件，在這裡由index.js統一匯出。
+
+components：裡面放著所有我們寫的組件。
+
+constants：是指不會變的資料，例如存放所有動作指令的action-types.js和要給store管理的資料。
+
+reducers：負責建構描述各種動作的Reducer，一樣由index.js匯出。
+
+store：負責產生保管資料的store，一樣由index.js匯出。
